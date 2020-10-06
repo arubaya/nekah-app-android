@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NekahApp</string>
+    <string name="find_it">Find it</string>
+    <string name="walktrough_detail">Welcome to NekahApp and find your true love to get married</string>
+    <string name="AppVersion">Version 1.4"-"200201</string>
+    <string name="Loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \nDui ut ornare lectus sit amet est. Sed pulvinar proin gravida hendrerit lectus. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. \nElit at imperdiet dui accumsan. Enim neque volutpat ac tincidunt vitae semper. Orci dapibus ultrices in iaculis nunc sed augue lacus. \nUltricies tristique nulla aliquet enim. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Ac ut consequat semper viverra nam libero justo laoreet sit. \nBibendum neque egestas congue quisque egestas diam. Est sit amet facilisis magna etiam. Suspendisse in est ante in nibh mauris cursus mattis molestie. \nNisi vitae suscipit tellus mauris a diam maecenas sed. Risus sed vulputate odio ut. Egestas congue quisque egestas diam in arcu. \nNunc sed blandit libero volutpat sed cras ornare.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_detail_card_view">DetailCardView</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="detail1">NekahApp adalah sebuah projek UI desain perkuliahan dengan mengacu pada brief salahsatu website freelancher yang sudah dipilih.</string>
+    <string name="detail2">Basis konsep aplikasi ini merujuk pada aplikasi pencari jodoh online dan ditujukan khusus bagi warga muslim.</string>
+    <string name="detail3">Perkembangan konsep aplikasi ini juga akana memberikan informasi mengenai tatacara pernikahan secara islami.</string>
+</resources>

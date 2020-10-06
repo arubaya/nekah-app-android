@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/action_bar">
+
+            <ImageView
+                android:id="@+id/actionBarMenu"
+                android:layout_width="48dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/nkh_small"
+                android:layout_centerHorizontal="true"/>
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="18dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="120dp"
+                android:background="@drawable/menu_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/actionBarMenu"/>
+            <Button
+                android:id="@+id/btnLove"
+                android:layout_width="19dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/love_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/actionBarMenu"/>
+
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabMenu"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@color/colorAccentBlue" />
+            //android:background="?attr/colorAccent"
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

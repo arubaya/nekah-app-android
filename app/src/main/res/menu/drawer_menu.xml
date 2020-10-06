@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navMyMatches"
+            android:icon="@drawable/icon_mymatches"
+            android:title="My Matches" />
+        <item
+            android:id="@+id/navProfile"
+            android:icon="@drawable/icon_profile"
+            android:title="Account Profile" />
+        <item
+            android:id="@+id/navSetting"
+            android:icon="@drawable/icon_setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/navShare"
+            android:icon="@drawable/icon_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/navAbout"
+            android:icon="@drawable/icon_about"
+            android:title="About" />
+    </group>
+
+</menu>
